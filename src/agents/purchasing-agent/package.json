@@ -1,0 +1,14 @@
+{
+    "name": "impulso-hype-buyer-agent",
+    "version": "1.0.0",
+    "description": "Agente autônomo para processamento de compras na Amazon",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "puppeteer": "^22.0.0",
+        "dotenv": "^16.4.1",
+        "axios": "^1.6.7"
+    }
+}

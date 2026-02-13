@@ -1,0 +1,62 @@
+generator client {
+  provider = "prisma-client-js"
+  binaryTargets = ["native", "rhel-openssl-1.0.x", "rhel-openssl-3.0.x", "debian-openssl-1.1.x", "debian-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Product {
+  id              String          @id @default(uuid())
+  externalId      String?         @unique 
+  name            String
+  price           Float
+  costPrice       Float?
+  originalPrice   Float?
+  description     String
+  images          String          // Armazenado como JSON (array de strings)
+  category        String
+  rating          Float           @default(0)
+  reviews         Int             @default(0)
+  featured        Boolean         @default(false)
+  createdAt       DateTime        @default(now())
+  salesCount      Int             @default(0)
+  video           String?
+  expiresAt       DateTime?
+  
+  variants        Variant[]
+  specifications  Specification[]
+}
+
+model Variant {
+  id              String  @id @default(uuid())
+  name            String
+  image           String
+  price           Float
+  originalPrice   Float?
+  
+  productId       String
+  product         Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+}
+
+model Specification {
+  id        String  @id @default(uuid())
+  key       String
+  value     String
+  
+  productId String
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+}
+
+model Order {
+  id              String   @id @default(uuid())
+  orderNumber     String   @unique
+  customerName    String
+  customerEmail   String
+  items           String   // JSON string
+  paymentStatus   String
+  total           Float
+  createdAt       DateTime @default(now())
+}

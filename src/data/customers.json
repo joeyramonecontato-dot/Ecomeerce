@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Joey Ramone",
+    "email": "joeyramonecontato@gmail.com",
+    "cpf": "048.378.970-17",
+    "phone": "(51) 98152-2028",
+    "cep": "93130-380",
+    "address": "Rua Pompeiro",
+    "number": "707",
+    "neighborhood": "Campina",
+    "city": "São Leopoldo",
+    "state": "RS",
+    "orders": [
+      "ORD-1770862725372",
+      "ORD-1770863019911",
+      "ORD-1770863354053",
+      "ORD-1770930610005"
+    ],
+    "createdAt": "2026-02-12T02:18:46.107Z",
+    "lastOrderAt": "2026-02-12T21:10:10.831Z"
+  }
+]

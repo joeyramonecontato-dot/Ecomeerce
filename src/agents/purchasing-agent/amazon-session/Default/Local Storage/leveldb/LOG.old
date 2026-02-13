@@ -1,0 +1,8 @@
+2026/02/12-00:47:08.795 90a4 Reusing MANIFEST D:\Antygravity\affiliate-store-next\src\agents\purchasing-agent\amazon-session\Default\Local Storage\leveldb/MANIFEST-000001
+2026/02/12-00:47:08.799 90a4 Recovering log #3
+2026/02/12-00:47:08.799 90a4 Level-0 table #3: started
+2026/02/12-00:47:08.917 90a4 Level-0 table #3: 20370 bytes OK
+2026/02/12-00:47:08.934 90a4 Recovering log #4
+2026/02/12-00:47:08.935 90a4 Reusing old log D:\Antygravity\affiliate-store-next\src\agents\purchasing-agent\amazon-session\Default\Local Storage\leveldb/000004.log 
+2026/02/12-00:47:09.175 90a4 Delete type=0 #3
+2026/02/12-00:47:09.175 90a4 Delete type=2 #5

@@ -1,0 +1,136 @@
+[
+  {
+    "orderNumber": "ORD-1770862725372",
+    "items": [
+      {
+        "id": "1",
+        "title": "Smartwatch Hype X Pro",
+        "quantity": 2,
+        "unit_price": 269.91
+      }
+    ],
+    "customer": {
+      "name": "Joey Ramone",
+      "email": "joeyramonecontato@gmail.com",
+      "cpf": "048.378.970-17",
+      "phone": "(51) 98152-2028",
+      "cep": "93130-380",
+      "address": "Rua Pompeiro",
+      "number": "707",
+      "neighborhood": "Campina",
+      "city": "São Leopoldo",
+      "state": "RS"
+    },
+    "payment": "pix",
+    "totals": {
+      "total": 539.82
+    },
+    "mpPreferenceId": "3198133717-ea0a43ac-b794-4f9a-9638-07365de4dbc0",
+    "paymentUrl": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=3198133717-ea0a43ac-b794-4f9a-9638-07365de4dbc0",
+    "id": "r5m1vl",
+    "createdAt": "2026-02-12T02:18:46.106Z",
+    "status": "pending"
+  },
+  {
+    "orderNumber": "ORD-1770863019911",
+    "items": [
+      {
+        "id": "1",
+        "title": "Smartwatch Hype X Pro",
+        "quantity": 1,
+        "unit_price": 269.91
+      }
+    ],
+    "customer": {
+      "name": "Joey Ramone",
+      "email": "joeyramonecontato@gmail.com",
+      "cpf": "048.378.970-17",
+      "phone": "(51) 98152-2028",
+      "cep": "93130-380",
+      "address": "Rua Pompeiro",
+      "number": "707",
+      "neighborhood": "Campina",
+      "city": "São Leopoldo",
+      "state": "RS"
+    },
+    "payment": "pix",
+    "totals": {
+      "total": 269.91
+    },
+    "mpPreferenceId": "3198133717-880c3083-e27c-4f3b-bbac-1a99b026a460",
+    "paymentUrl": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=3198133717-880c3083-e27c-4f3b-bbac-1a99b026a460",
+    "id": "i1jfm",
+    "createdAt": "2026-02-12T02:23:40.599Z",
+    "status": "pending"
+  },
+  {
+    "orderNumber": "ORD-1770863354053",
+    "items": [
+      {
+        "id": "1",
+        "title": "Smartwatch Hype X Pro",
+        "quantity": 1,
+        "unit_price": 269.91
+      }
+    ],
+    "customer": {
+      "name": "Joey Ramone",
+      "email": "joeyramonecontato@gmail.com",
+      "cpf": "048.378.970-17",
+      "phone": "(51) 98152-2028",
+      "cep": "93130-380",
+      "address": "Rua Pompeiro",
+      "number": "707",
+      "neighborhood": "Campina",
+      "city": "São Leopoldo",
+      "state": "RS"
+    },
+    "payment": "pix",
+    "totals": {
+      "total": 269.91
+    },
+    "mpPreferenceId": "3198133717-04ae876e-9fbf-46a2-afbe-ae8501c2ec9c",
+    "paymentUrl": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=3198133717-04ae876e-9fbf-46a2-afbe-ae8501c2ec9c",
+    "id": "cbt4ne",
+    "createdAt": "2026-02-12T02:29:14.917Z",
+    "status": "pending"
+  },
+  {
+    "orderNumber": "ORD-1770930610005",
+    "items": [
+      {
+        "id": "offer-1770921135488-796",
+        "title": "Soldiers Nutrition Creatina Monohidratada 500g",
+        "quantity": 1,
+        "unit_price": 49.99
+      },
+      {
+        "id": "offer-1770921170158-487",
+        "title": "Fone de Ouvido Bluetooth Sem Fio 5.0 TWS Wireless Compatível com IOS Iphone e Android Redução de Ruído Toque Inteligente Resistente ao Suor Para Trabalho Academia Musculação Treino e Lazer Premium",
+        "quantity": 2,
+        "unit_price": 33.89
+      }
+    ],
+    "customer": {
+      "name": "Joey Ramone",
+      "email": "joeyramonecontato@gmail.com",
+      "cpf": "048.378.970-17",
+      "phone": "(51) 98152-2028",
+      "cep": "93130-380",
+      "address": "Rua Pompeiro",
+      "number": "707",
+      "neighborhood": "Campina",
+      "city": "São Leopoldo",
+      "state": "RS"
+    },
+    "payment": "pix",
+    "totals": {
+      "total": 117.77000000000001
+    },
+    "mpPreferenceId": "3198133717-58120bcd-e557-422b-aa15-94fc7fff903d",
+    "paymentUrl": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=3198133717-58120bcd-e557-422b-aa15-94fc7fff903d",
+    "id": "jyf9a89",
+    "createdAt": "2026-02-12T21:10:10.828Z",
+    "status": "pending"
+  }
+]
