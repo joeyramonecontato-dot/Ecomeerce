@@ -22,7 +22,7 @@
     "input-format": "^0.3.14",
     "lucide-react": "^0.563.0",
     "mercadopago": "^2.12.0",
-    "next": "15.1.7",
+    "next": "15.1.8",
     "prisma": "^5.22.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
@@ -37,7 +37,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "15.1.7",
+    "eslint-config-next": "15.1.8",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
